@@ -7,6 +7,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #7359dc;
+  min-width: 600px;
 }
 
 .container {
@@ -56,9 +57,14 @@ h1 {
 }
 
 .component_2 {
-  width: 410px;
+  width: 415px;
   height: 200px;
   margin-top: 15px;
+  margin-left: -5px;
+}
+
+#message {
+  resize: none;
 }
 
 .component_3 {
